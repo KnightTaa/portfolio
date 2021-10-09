@@ -10,7 +10,21 @@ const About = () => {
                     <img src={Pic} alt="" className="a-img" />
                 </div>
             </div>
-            <div className="a-right"></div>
+            <div className="a-right">
+                <h1 className="a-title">About Me</h1>
+                <p className="a-sub">
+                    Problem Solver. Innovator. Quick Learner
+                </p>
+                <p className="a-desc">
+                    To obtain a challenging responsible position in a dynamic organization
+                    which would enable me to utilize and enhance all my talents,
+                    capabilities, and knowledge to bring out the best in me for the success
+                    of the organization, thereby gain experience in working and congenial
+                    environment with opportunities for learning and growth for a fulfilling
+                    career.
+
+                </p>
+            </div>
         </div>
     )
 }
