@@ -1,7 +1,11 @@
+import About from "./components/about/About"
+import Intro from "./components/intro/Intro"
+
 const App = () => {
   return (
     <div>
-      Hello World
+      <Intro/>
+      <About/>
     </div>
   )
 }
