@@ -1,4 +1,5 @@
 import "./intro.css"
+import Banner from "../../img/banner.png"
 
 const Intro = () => {
     return (
@@ -91,7 +92,7 @@ const Intro = () => {
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <img src="https://i.ibb.co/TPLm7sF/me.png" alt="" className="i-img" />
+                <img src={Banner} alt="" className="i-img" />
             </div>
         </div>
     )
