@@ -1,5 +1,4 @@
 import "./about.css"
-import Pic from "../../img/about.jpg"
 
 const About = () => {
     return (
